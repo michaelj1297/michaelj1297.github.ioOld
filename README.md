@@ -54,4 +54,4 @@ The following outlines how to use the actual solution
     + The `Amount of Cards` you would like to generate. Keep in mind the higher the number, the more resources will be needed and the higher the liklihood of the solution crashing. Restrictions were put in place to prevent numbers above 999, but its reccomended to keep it under 200.
     + The `Amount per Page` is a radio option to tell the system how many cards to put on each page (1-4), where possible. Keep in mind that if the total amount of cards are not directly divisible by the amount of per page, then the last page will have less than specified amount. 
     + The `Batch Number` is for when cards are generated in batches, and is included in the card number, to ensure that the cards numbers stay unique.
-+ Once the page is rerendered, you will see the print button as well as the generated Bingo Cards below.
++ Once the page is rerendered, you will see the print button as well as the generated Bingo Cards below. 
