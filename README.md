@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# About The Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This application was created for the sole purpose of generating Bingo Cards in the form of PDF documents for a specific event, of which I was acquainted with the organizer.
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Criteria
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The request was uniquely generated Bingo Cards in the form of a printable PDF document. The following outlines the major criterias for this request:
+    + The PDF documents must be generated within a certain timeframe. 
+    + It was prefered that the PDF included the name of the event. 
+    + Color was not a priority as they would have been printed in Black and White.
+    + Each card must have a unique Card number. 
+    + At least x amount of cards should be generated without any extra cost. (This was important because, while there are several Bingo Card Generaters out there, many of them come with a cost.)
+    + The solution should facilitate the ability to supply more cards with unique Card numbers which do not conflict with previously generated cards. 
+        > This criteria was introduced later on when it was determined that more cards were needed. This was facilitated by introducing a Batch Number aspect, however it relied on user input.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Project Timeframe
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The timeframe for the project was one - two days, within which several options were explored to fit the required criteria. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# About the Solution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Utilised
 
-### `npm run eject`
++ Integrated Development Environment (IDE) -  [Visual Studio Code](https://code.visualstudio.com/)  
++ Major Javascript Libraries Used -  
+    1. [https://react.dev/](ReactJS)
+    1. [https://getbootstrap.com/](Bootstrap)
+    1. [https://github.com/parallax/jsPDF](jsPDF)
+    1. [https://html2canvas.hertzen.com/](html2canvas)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## To Note:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    > It is important to note that due to the constraining timeframe, and the high possibility that I, the developer, will be the only person interacting with the solution, the application is most likely not optimized, and proper testing was not fully conducted. However, where the PDF is concerned, testing was conducted to ensure that the criteria was succeffully fulfilled.    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Plans
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+As of right now, there are no immediate plans but in the future, this project may be revisited, optimized and put into production(most likely hosted on GitHub). 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# How to use
