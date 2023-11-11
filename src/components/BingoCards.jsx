@@ -721,7 +721,7 @@ function CardPage(props) {
                 <div class="row " >
                     <div class="col-1"></div>
                     <div class="col">
-                        <h3><b>NorthWest Regional Family Day BINGO</b> </h3>
+                        <h3><b>Sample Event BINGO</b> </h3>
                         <h4><b></b> </h4>
                     </div>
                     <div class="col1"></div>
@@ -855,33 +855,6 @@ function CardPage(props) {
                     <div class="col-4"><button id="savePDFBtn" type="button" class="btn btn-primary" onClick={() => printPDF()}>Save PDF</button></div>
                 </div>
 
-                {/* <div class="row " >
-                    <div class="col-2"></div>
-                    <div id="PDFTarget" class="col-8">
-                        <div class="row " >
-                            <div class="col-1"></div>
-                            <div class="col">
-                                <h3><b>NorthWest Regional Family Day BINGO</b> </h3>
-                                <h4><b></b> </h4>
-                            </div>
-                            <div class="col1"></div>
-
-
-                        </div>
-                        <div style={{ border: "1px solid black" }} class="row row-cols-1 row-cols-md-2 g-2 mb-2 mt-4 p-1" >
-                            <GetBCard index={0} />
-                            <GetBCard index={1} />
-                            <GetBCard index={2} />
-                            <GetBCard index={3} />
-                        </div>
-                        <div class="row " >
-                            <div class="col-5"></div>
-                            <div class="col-2">{pageNum}</div>
-                            <div class="col-5"></div>
-                        </div>
-                    </div>
-                    <div class="col-2"></div>
-                </div> */}
                 {pageArray.map((element, index) => (
 
                     <GetCardPage key={index} index={element} />
@@ -916,33 +889,7 @@ function CardPage(props) {
                 <div class="col-4"><button id="savePDFBtn" type="button" class="btn btn-primary" onClick={() => printPDF()}>Save PDF</button></div>
             </div>
 
-            {/* <div class="row " >
-                <div class="col-2"></div>
-                <div id="PDFTarget" class="col-8">
-                    <div class="row " >
-                        <div class="col-1"></div>
-                        <div class="col">
-                            <h3><b>NorthWest Regional Family Day BINGO</b> </h3>
-                            <h4><b></b> </h4>
-                        </div>
-                        <div class="col1"></div>
-
-
-                    </div>
-                    <div style={{ border: "1px solid black" }} class="row row-cols-1 row-cols-md-2 g-2 mb-2 mt-4 p-1" >
-                        <GetBCard index={0} />
-                        <GetBCard index={1} />
-                        <GetBCard index={2} />
-                        <GetBCard index={3} />
-                    </div>
-                    <div class="row " >
-                        <div class="col-5"></div>
-                        <div class="col-2">{pageNum}</div>
-                        <div class="col-5"></div>
-                    </div>
-                </div>
-                <div class="col-2"></div>
-            </div> */}
+           
 
             <getCardPage />
 
