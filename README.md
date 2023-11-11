@@ -30,10 +30,10 @@ The timeframe for the project was one - two days, within which several options w
 
 + Integrated Development Environment (IDE) -  [Visual Studio Code](https://code.visualstudio.com/)  
 + Major Javascript Libraries Used -  
-    1. [https://react.dev/](ReactJS)
-    1. [https://getbootstrap.com/](Bootstrap)
-    1. [https://github.com/parallax/jsPDF](jsPDF)
-    1. [https://html2canvas.hertzen.com/](html2canvas)
+    1. [ReactJS](https://react.dev/)
+    1. [Bootstrap](https://getbootstrap.com/)
+    1. [jsPDF](https://github.com/parallax/jsPDF)
+    1. [html2canvas](https://html2canvas.hertzen.com/)
 
 ## To Note:
 
@@ -45,4 +45,12 @@ As of right now, there are no immediate plans but in the future, this project ma
 
 # How to use
 
-For your convenience the `build` folder was included in the repository, and as of right now this project is hosted, but no amendments were made to allow users to customize the end result.
+For your convenience the `build` folder was included in the repository, and as of right now this project is [https://subjectt137.github.io](hosted), but no amendments were made to allow users to customize the end result.
+
+The following outlines how to use the actual solution
+
++ Open the application
++ Supply the following information in the corresponding fields:
+    + The `Amount of Cards` you would like to generate. Keep in mind the higher the number, the more resources will be needed and the higher the liklihood of the solution crashing. Restrictions were put in place to prevent numbers above 999, but its reccomended to keep it under 200.
+    + The `Amount per Page` is a radio option to tell the system how many cards to put on each page (1-4), where possible. Keep in mind that if the total amount of cards are not directly divisible by the amount of per page, then the last page will have less than specified amount. 
+    + The `Batch Number` is for when cards are generated in batches, and is included in the card number, to ensure that the cards numbers stay unique.
