@@ -45,7 +45,7 @@ As of right now, there are no immediate plans but in the future, this project ma
 
 # How to use
 
-For your convenience the `build` folder was included in the repository, and as of right now this project is [https://michaelj1297.github.io](hosted), but no amendments were made to allow users to customize the end result.
+For your convenience the `build` folder was included in the repository, and as of right now this project is [hosted](https://michaelj1297.github.io), but no amendments were made to allow users to customize the end result.
 
 The following outlines how to use the actual solution
 
